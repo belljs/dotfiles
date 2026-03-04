@@ -1,17 +1,13 @@
 # Path to Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
-
 # THEME
 ZSH_THEME="robbyrussell"
-
 
 # PLUGINS
 plugins=(git)
 
-
 source $ZSH/oh-my-zsh.sh
-
 
 # ALIAS SETTINGS
 
@@ -31,10 +27,4 @@ alias snippets="cat ~/notes/snippets.md"
 ## VIFM Args = left-pane, right-pane, then filter newest first descending
 alias intake='vifm /mnt/c/Users/James/Downloads "$PWD" -c "set sort=mtime" -c "set sortorder=descending"'
 
-
 export COLORTERM=truecolor
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-eval "$(/home/jb/.local/bin/mise activate zsh)"
