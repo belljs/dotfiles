@@ -1,0 +1,50 @@
+[terminal.shell]
+program = "wsl.exe"
+args = ["-d", "Ubuntu", "--cd", "~"]
+
+[window]
+decorations = "full"
+padding = { x = 10, y = 10 }
+dynamic_padding = true
+opacity = 0.95
+
+[font]
+normal = { family = "Cascadia Mono", style = "Regular" }
+bold = { family = "Cascadia Mono", style = "Bold" }
+italic = { family = "Cascadia Mono", style = "Italic" }
+size = 12.5
+
+[scrolling]
+history = 5000
+
+[cursor]
+style = { shape = "Block", blinking = "On" }
+
+[mouse]
+hide_when_typing = true
+
+# Tokyo Night theme
+[colors.primary]
+background = "#1a1b26"
+foreground = "#c0caf5"
+
+[colors.normal]
+black   = "#15161e"
+red     = "#f7768e"
+green   = "#9ece6a"
+yellow  = "#e0af68"
+blue    = "#7aa2f7"
+magenta = "#bb9af7"
+cyan    = "#7dcfff"
+white   = "#a9b1d6"
+
+[colors.bright]
+black   = "#414868"
+red     = "#f7768e"
+green   = "#9ece6a"
+yellow  = "#e0af68"
+blue    = "#7aa2f7"
+magenta = "#bb9af7"
+cyan    = "#7dcfff"
+white   = "#c0caf5"
+
