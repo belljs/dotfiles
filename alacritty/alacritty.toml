@@ -1,17 +1,16 @@
-[terminal.shell]
-program = "wsl.exe"
-args = ["-d", "Ubuntu", "--cd", "~"]
-
 [window]
 decorations = "full"
 padding = { x = 10, y = 10 }
 dynamic_padding = true
 opacity = 0.95
 
+[env]
+TERM = "xterm-256color"
+
 [font]
-normal = { family = "Cascadia Mono", style = "Regular" }
-bold = { family = "Cascadia Mono", style = "Bold" }
-italic = { family = "Cascadia Mono", style = "Italic" }
+# normal = { family = "Cascadia Mono", style = "Regular" }
+# bold = { family = "Cascadia Mono", style = "Bold" }
+# italic = { family = "Cascadia Mono", style = "Italic" }
 size = 12.5
 
 [scrolling]
