@@ -1,3 +1,10 @@
+# Alacritty Config
+# Remove comments from lower lines when running via windows to connect to WSL
+
+# [terminal.shell]
+# program = "wsl.exe"
+# args = ["-d", "Ubuntu", "--cd", "~"]
+
 [window]
 decorations = "full"
 padding = { x = 10, y = 10 }
@@ -46,4 +53,3 @@ blue    = "#7aa2f7"
 magenta = "#bb9af7"
 cyan    = "#7dcfff"
 white   = "#c0caf5"
-

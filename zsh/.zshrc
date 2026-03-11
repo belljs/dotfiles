@@ -21,10 +21,4 @@ alias cat="batcat --plain"
 ## custom tree output
 alias t="tree -a --dirsfirst -I '__pycache__|.git|.gitignore|.venv|.mypy_cache|.pytest_cache|node_modules'"
 
-## see snippets node
-alias snippets="cat ~/notes/snippets.md"
-
-## VIFM Args = left-pane, right-pane, then filter newest first descending
-alias intake='vifm /mnt/c/Users/James/Downloads "$PWD" -c "set sort=mtime" -c "set sortorder=descending"'
-
 export COLORTERM=truecolor
