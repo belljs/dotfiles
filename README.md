@@ -9,6 +9,10 @@ Clone the repo
 Symlink files as needed:
 
 `ln -s ~/dotfiles/.zshrc ~/.zshrc`
+or
+`ln -sf ~/dotfiles/.zshrc ~/.zshrc`
+
+`-f` means force removal of the destination path if needed so the link can be created.
 
 ## Notes
 
